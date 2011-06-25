@@ -1,0 +1,14 @@
+package com.osintegrators.jpa.evil.hr;
+
+import java.sql.Date;
+
+/**
+ * @author shartsock
+ */
+public class Employer {
+	String name;
+	String title;
+	Date startDate;
+	Date endDate;
+	Contact supervisor;
+}

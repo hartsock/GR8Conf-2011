@@ -1,0 +1,20 @@
+package com.osintegrators.jpa.evil.hr;
+
+import java.sql.Date;
+
+/**
+ *   previousEmployer1Name varchar(255),
+  previousEmployer1StartDate date,
+  previousEmployer1EndDate date,
+  previousEmployer1Title varchar(255),
+
+ * @author shartsock
+ *
+ */
+public class Employer {
+	String name;
+	String title;
+	Date startDate;
+	Date endDate;
+	Contact supervisor;
+}

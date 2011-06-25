@@ -1,0 +1,9 @@
+<root>
+  <facet id="jpt.jpa">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.0" value="eclipselink-210-osgi-bundles-library-provider"/>
+      </node>
+    </node>
+  </facet>
+</root>

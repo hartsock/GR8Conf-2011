@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>Spring Social 1.0.0.RC1 Released</title>
+ <link>http://www.springsource.org/spring-social/news/1.0.0.rc1-released</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;We are pleased to announce that the first release candidate of the &lt;a href=&quot;http://www.springframework.org/spring-social&quot;&gt;Spring Social&lt;/a&gt; project is now available!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Spring Social project allows you to connect your Java applications to Software-as-a-Service (SaaS) providers such as Facebook and Twitter.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Additions to the Facebook API binding such as photo and video upload, Facebook page support, and Facebook search.&lt;/li&gt;
+&lt;li&gt;Expansion of the Twitter API binding to include mobile notifications, blocking, and geo location operations.&lt;/li&gt;
+&lt;li&gt;Implicit sign up support enabling automatic sign up of a user from a connection.&lt;/li&gt;
+&lt;li&gt;A new &lt;a href=&quot;https://github.com/SpringSource/spring-social/wiki/Quick-Start&quot;&gt;quickstart&lt;/a&gt; showing how to get up and running quickly.&lt;/li&gt;
+&lt;li&gt;Numerous bug fixes and other improvements based on user feedback (see the &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring-social/docs/1.0.0.RC1/changelog.txt&quot;&gt;changelog&lt;/a&gt; for details).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, with this release we have extracted the provider modules (Twitter, Facebook, etc) into their own projects so they can progress at a separate schedule from the main Spring Social project. Coinciding with the release of Spring Social 1.0.0.RC1, Spring Social Twitter and Facebook 1.0.0.RC1 are also now available.&lt;/p&gt;
+&lt;p&gt;To get the software, download the release distribution (&lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Social&amp;amp;version=1.0.0.RC1&quot;&gt;Core&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Social%20Facebook&amp;amp;version=1.0.0.RC1&quot;&gt;Facebook&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Social%20Twitter&amp;amp;version=1.0.0.RC1&quot;&gt;Twitter&lt;/a&gt;) or simply add the &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring-social/docs/1.0.0.RC1/reference/html/overview.html#overview-howtoget&quot;&gt;maven artifacts&lt;/a&gt; to your project.  To see it live, run through the &lt;a href=&quot;https://github.com/SpringSource/spring-social/wiki/Quick-Start&quot;&gt;quickstart&lt;/a&gt; and spin up the &lt;a href=&quot;https://github.com/SpringSource/spring-social-samples&quot;&gt;showcase app&lt;/a&gt; (recently updated for 1.0.0.RC1). Supplement as you go with information from the &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring-social/docs/1.0.0.RC1/reference/html/&quot;&gt;reference manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Social requires Spring Framework 3.0.5 or &amp;gt; to run. We recommend &lt;a href=&quot;http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/&quot;&gt;Spring 3.1&lt;/a&gt; for new applications to take advantage of the latest advances in the core framework. See the reference manual for a full description of dependencies.&lt;/p&gt;
+&lt;p&gt;It is awesome to see the community interest in extending Spring Social to work with numerous SaaS providers.  Check out &lt;a target=&quot;_blank&quot; href=&quot;http://twitter.com/#!/mattupstate&quot;&gt;Matt Wright&lt;/a&gt;&#039;s work on &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/mattupstate/spring-social-instagram&quot;&gt;Instagram&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/mattupstate/spring-social-foursquare&quot;&gt;Foursquare&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;http://twitter.com/#!/mortenag&quot;&gt;Morten Andersen-Gott&lt;/a&gt;&#039;s &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/magott/spring-social-yammer/&quot;&gt;Yammer extension&lt;/a&gt;. Work on &lt;a href=&quot;https://github.com/SpringSource/spring-social-linkedin&quot;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&quot;https://github.com/SpringSource/spring-social-github&quot;&gt;Github&lt;/a&gt;, &lt;a href=&quot;https://github.com/SpringSource/spring-social-tripit&quot;&gt;TripIt&lt;/a&gt;, and &lt;a href=&quot;https://github.com/SpringSource/spring-social-gowalla&quot;&gt;Gowalla&lt;/a&gt; has also started. We&#039;re committed to working with the community to build an ecosystem of quality Spring Social extensions. If you&#039;re integrating a SaaS API into your application, consider contributing to the Spring Social project.  Have a look at our &lt;a href=&quot;http://static.springsource.org/spring-social/docs/1.0.0.RC1/reference/html/implementing.html&quot; target=&quot;_blank&quot;&gt;guide to extending Spring Social&lt;/a&gt; and discuss with the development team at our &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=82&quot; target=&quot;_blank&quot;&gt;forum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As we push toward a GA release, we would like to hear you think of the RC1 release. Participate in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?82-Social&quot;&gt;forum&lt;/a&gt; or, if you have any suggestions or find any bugs, post them in the &lt;a href=&quot;https://jira.springsource.org/browse/SOCIAL&quot;&gt;issue tracker&lt;/a&gt;.  We hope you enjoy using Spring Social!&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/spring-social/news/1.0.0.rc1-released#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 23 Jun 2011 15:58:42 +0000</pubDate>
+ <dc:creator>Craig Walls</dc:creator>
+ <guid isPermaLink="false">3160 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Eclipse Virgo IDE 1.0.0.M01 Released</title>
+ <link>http://www.springsource.org/node/3161</link>
+ <description>&lt;p&gt;I am happy to announce that we released the first milestone build of the Virgo IDE tooling. For installation instructions, please take a look at the this wiki page:&lt;br /&gt;
+&lt;a href=&quot;http://wiki.eclipse.org/Virgo/Tooling&quot;&gt;http://wiki.eclipse.org/Virgo/Tooling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the first milestone build after the code contribution from SpringSource and there aren&#039;t that much changes with regards to features or bugs in there compared to the latest dm server tooling releases. But this will change from now on... :-)&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3161#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 23 Jun 2011 08:45:33 +0000</pubDate>
+ <dc:creator>Martin Lippert</dc:creator>
+ <guid isPermaLink="false">3161 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Live Online Core Spring Training</title>
+ <link>http://www.springsource.org/live-online-spring-training</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.springsource.org/&quot;&gt;&lt;img alt=&quot;Spring Education&quot; width=&quot;175&quot; border=&quot;0&quot; src=&quot;http://www.springsource.com/files/images/Spring-Education.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ensure that you have the skills needed to meet our industry&#039;s skyrocketing demand for trained Spring professionals and the credentials to prove that you know what you&#039;re doing. Attend one of the upcoming Live Online SpringSource courses, designed and delivered by the product experts, and gain the skills our industry is actively seeking.&lt;/p&gt;
+
+&lt;p&gt;SpringSource University offers two online bootcamps, select the online course in your region and register today:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Americas&lt;/strong&gt;&lt;br /&gt;
+July 19 – 22, 2011&lt;br /&gt;
+09:00 AM – 05:00 PM CST&lt;br /&gt;
+&lt;a href=&quot;http://www.springsource.com/training/class?classID=100507&quot;&gt;Registration and more information&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Europe, Middle East and Africa&lt;/strong&gt;&lt;br /&gt;
+July 26 – 29, 2011&lt;br /&gt;
+09:00 AM – 05:00 PM GMT&lt;br /&gt;
+&lt;a href=&quot;http://www.springsource.com/training/class?classID=100342&quot;&gt;Registration and more information&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/live-online-spring-training#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 22 Jun 2011 15:49:09 +0000</pubDate>
+ <dc:creator>Mark Baars</dc:creator>
+ <guid isPermaLink="false">3159 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title> This week in Spring: June 21st, 2011</title>
+ <link>http://www.springsource.org/node/3158</link>
+ <description> 
+  
+  &lt;p&gt; 
+ 
+ 
+ Welcome back to yet another This Week in Spring. SpringSource is out in full force at JAX San Jose this week and we will be at OSCON, in July. These events are  great avenues for us to connect with the userbase.   As usual, we&#039;ve got a nice complement of stuff to cover this week, so let&#039;s get to it! 
+  &lt;/p&gt; 
+   
+&lt;ol&gt;    
+
+          &lt;LI&gt;  There has been loads of interest and discussion surrounding last week&#039;s &lt;a href=&quot;http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/&quot;&gt;Spring 3.1 second milestone&lt;/a&gt;.  Sam Brannen writes about the &lt;a href=&quot;http://blog.springsource.com/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles&quot;&gt; new testing support&lt;/a&gt; which is a great follow on to the previous posts about &lt;a href=&quot;http://blog.springsource.com/2011/06/10/spring-3-1-m2-configuration-enhancements/&quot;&gt;configuration enhancements&lt;/a&gt; and &lt;a href=&quot;http://blog.springsource.com/2011/06/13/spring-3-1-m2-spring-mvc-enhancements-2/&quot;&gt;Spring MVC updates&lt;/a&gt;.  
+          &lt;/LI&gt;
+
+         &lt;LI&gt;
+            Alex (from the blog &quot;javaaddicto&quot;) has also written about the new features in Spring 3.1, and particularly the new support in Spring 3.1 M2 for   &lt;a href=&quot;http://alexsotob.blogspot.com/2011/06/its-strange-but-its-true-i-cant-get.html&quot;&gt;XML-free web applications in Spring MVC. &lt;/a&gt; This is very cool! Check it out.
+         &lt;/LI&gt; 
+
+       &lt;LI&gt; 
+        Here is &lt;EM&gt;another&lt;/EM&gt; more code centric look at &lt;a href=&quot;http://www.dzone.com/links/r/spring_31_mvc_xmlfree_configuration_example.html&quot;&gt;XML-free configuration in Spring 3.1 M2&lt;/a&gt;, this time on dZone.  
+         &lt;/LI&gt;
+
+ &lt;LI&gt; 
+        Rod Johnson sounds off on the state of the complexity in enterprise Java today. Check out this &lt;a href=&quot;http://www.theserverside.com/video/Java-Developers-have-Loads-to-Learn-from-the-Rails-Community&quot;&gt;interview with Rod on the TheServerSide.com&lt;/a&gt;. Very cool!
+       &lt;/LI&gt; 
+        
+        &lt;LI&gt; Hot on the heels of the vFabric 5 release, Chris Harris has written up a good look at how to use the new SQLFire to &lt;a href=&quot;http://cjharris5.blogspot.com/2011/06/grails-sqlfire-quickstart.html&quot;&gt;build a Grails CRUD application&lt;/a&gt;.
+    &lt;/LI&gt;
+
+  &lt;li&gt;Manning has just released the third edition of SpringSource&#039;s very own Craig Walls&#039; &lt;a href=&quot;http://www.manning.com/walls4/&quot;&gt;Spring in Action&lt;/a&gt;. Good stuff, check it out!
+       &lt;/li&gt; 
+
+    &lt;li&gt;
+
+ &lt;a href=&quot;http://www.springsource.org/spring-data/jpa&quot;&gt;Spring Data JPA&lt;/a&gt; (formerly, &quot;Hades&quot;), RC1 has just been released! It features, among other things, improved repository interface programming model (transactions at implementation, no need to extend JpaRepository anymore),  improved parameter binding for created queries, performance improvement in inspecting annotations,  improved detection of domain class from method return types,  and much more. &lt;a href=&quot;http://www.springsource.org/node/3157&quot;&gt;Check out the release announcement.&lt;/a&gt; &lt;/li&gt;
+ 
+    
+        &lt;LI&gt; Want to learn  about the Tomcat 7 classloader? &lt;a href=&quot;http://dertompson.com/2011/06/19/tomcat-classloader/&quot;&gt; Get the skinny in this post!&lt;/a&gt;&lt;/LI&gt;
+
+&lt;li&gt;
+ Using the   Vaadin web framework? 
+ Want to see how to rapidly build a Vaadin application on CloudFoundry? Who wouldn&#039;t?  &lt;a href=&quot;http://vaadin.com/book/-/page/rapid.cloudfoundry.html&quot;&gt;Check  out this doc&lt;/a&gt; that explains how to setup the toolchain (including &lt;A href=&quot;http://www.springsource.com/developer/sts&quot;&gt;SpringSource Tool Suite&lt;/A&gt;) and build a web application from code, all the way to the cloud.  &lt;/li&gt;
+
+        
+        &lt;LI&gt;
+The AMIS blog has an interesting post on &lt;a href=&quot;http://technology.amis.nl/blog/12306/leveraging-spring-beans-in-adf-faces-applications-and-using-the-spring-propertyplaceholderconfigurer-bean-to-dynamically-configure-bean-properties-from-external-files&quot;&gt;how to access and leverage Spring beans from Oracle ADF Faces-based JSF applications&lt;/a&gt;. The blog is a bit out of date - in that it covers Spring 2.5, but could prove useful to users of that framework and technology. Note that - while this approach outlines a tooling-centric approach to adding the libraries and so on, the crux of the Spring / JSF integration is bundled with the core Spring framework as an expression resolver delegate, &lt;code&gt;org.springframework.web.jsf.el.SpringBeanFacesELResolver&lt;/code&gt;, which the article does introduce. Very cool, generally, and the setup in Spring 3.x is not generally different, to this is useful for users of newer (and older!) versions.
+        
+        &lt;/LI&gt; 
+
+&lt;/ol&gt; 
+		
+</description>
+ <comments>http://www.springsource.org/node/3158#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 22 Jun 2011 01:20:54 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3158 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data JPA 1.0.0.RC1 released</title>
+ <link>http://www.springsource.org/node/3157</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;we are pleased to announce that the first release candidate of the Spring Data JPA project is now available! The release includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved repository interface programming model (transactions at implementation, no need to extend JpaRepository anymore)&lt;/li&gt;
+&lt;li&gt;Improved parameter binding for created queries&lt;/li&gt;
+&lt;li&gt;Performance improvement in inspecting annotations&lt;/li&gt;
+&lt;li&gt;Added documentation for In and NotIn queries&lt;/li&gt;
+&lt;li&gt;Improved detection of domain class from method return types&lt;/li&gt;
+&lt;li&gt;Added MergingPersistenceUnitManager to allow aggregating persistence units from multiple JARs&lt;/li&gt;
+&lt;li&gt;Default clearAutomatically attribute of @Modifying to false&lt;/li&gt;
+&lt;li&gt;Various bugfixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We aim to move towards a GA version quite quickly, so if you want to help steeling the final release this is the one to play with.&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;org.springframework.data&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;spring-data-jpa&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;1.0.0.RC1&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+
+&amp;lt;repository&amp;gt;
+    &amp;lt;id&amp;gt;org.springframework.maven.milestone&amp;lt;/id&amp;gt;
+    &amp;lt;name&amp;gt;Spring Maven Milestone Repository&amp;lt;/name&amp;gt;
+    &amp;lt;url&amp;gt;http://maven.springframework.org/milestone&amp;lt;/url&amp;gt;
+&amp;lt;/repository&amp;gt;
+&lt;/pre&gt;&lt;p&gt;
+&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data&amp;amp;version=1.0.0.RC1&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.0.RC1/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.0.RC1/reference/html/&quot;&gt;Reference documentation (HTML)&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.0.RC1/reference/pdf/spring-data-jpa-reference.pdf&quot;&gt;Reference documentation (PDF)&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.0.RC1/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Looking forward to your feedback in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=27&quot;&gt;forums&lt;/a&gt; or the &lt;a href=&quot;http://jira.springsource.org/browse/DATAJPA&quot;&gt;issuetracker&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3157#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 21 Jun 2011 22:24:24 +0000</pubDate>
+ <dc:creator>ogierke</dc:creator>
+ <guid isPermaLink="false">3157 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This week in Spring: June 14th, 2011</title>
+ <link>http://www.springsource.org/node/3154</link>
+ <description>  
+  &lt;p&gt;  Welcome back to another installment of &quot;This Week in Spring,&quot; and what a week it&#039;s been! This last week saw the release of the  &lt;b&gt;Spring 3.1 M2&lt;/b&gt; &lt;EM&gt;and&lt;/EM&gt; &lt;b&gt;vFabric 5&lt;/b&gt;! Lots of exciting stuff to talk about there,  as well as general community news, so let&#039;s get to it! 
+  &lt;/p&gt; 
+   
+&lt;ol&gt;    
+   &lt;li&gt;  Today VMware &lt;a href=&quot;http://www.marketwire.com/press-release/vmware-introduces-vfabric-5-integrated-application-platform-virtual-cloud-environments-nyse-vmw-1526312.htm&quot;&gt;announced&lt;/a&gt; the release of &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric/overview.html&quot;&gt;VMware vFabric 5&lt;/a&gt;, the application platform that defines the future of enterprise Java for cloud and virtualized execution environments. vFabric 5 contains many of the technologies that the Spring community is already familiar with including &lt;a href=&quot;http://www.vmware.com/products/data-center-virtualization/vfabric-tcserver/overview.html&quot;&gt;tc Server&lt;/a&gt;, &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-hyperic/overview.html&quot;&gt;Hyperic&lt;/a&gt;, &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-gemfire/overview.html&quot;&gt;GemFire&lt;/a&gt;, and &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-rabbitmq/overview.html&quot;&gt;RabbitMQ&lt;/a&gt;, but now adds some new technology. 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Elastic Memory for Java&lt;/strong&gt; (EM4J): a new capability for tc Server that provides a completely new level of coordination between the application server and the underlying virtual machine. EM4J uses the underlying vSphere virtualization to overcome some of the limitations of the Java&#039;s static memory heap.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spring Insight Operations&lt;/strong&gt;: leverages the same code-level tracing technology from the &lt;a href=&quot;/insight&quot;&gt;Spring Insight&lt;/a&gt; project but pulls together information from multiple application servers into a single console with roll-up views, drill downs, and historical comparisons ready for production systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLFire&lt;/strong&gt;: &lt;a href=&quot;http://communities.vmware.com/community/vmtn/appplatform/vfabric_sqlfire&quot;&gt;vFabric SQLFire&lt;/a&gt; leverages the time-tested vFabric GemFire underpinnings providing data at memory speed and horizontal scale but vFabric SQLFire adds familiar and standard SQL and JDBC interfaces to the service. &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.springsource.com/author/rodj/&quot;&gt;Rod Johnson&lt;/a&gt; discusses all the details of the release in his &lt;a href=&quot;http://blog.springsource.com/2011/06/14/announcing-vfabric-5/&quot;&gt;latest blog&lt;/a&gt;. Be sure to check out the latest release and try it out.&lt;/p&gt;
+   
+&lt;/li&gt;
+   &lt;li&gt;
+     &lt;a href=&quot;http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/&quot;&gt;Spring core lead Juergen Hoeller has announced that Spring 3.1.0 M2 has been released&lt;/a&gt;! At long last, the next step on the steady march to Spring 3.1 GA! The new release is as feature-packed as the last one, with a long list of major new features including (but definitely not limited to!) improved Java configuration support, XML-free and hassle-free Servlet 3.0-based Spring MVC application bootstrapping, new &lt;CODE&gt;Builder&lt;/CODE&gt; APIs for JPA and Hibernate, and much, much more! Check out the   &lt;a href=&quot;http://www.springsource.org/node/3149&quot;&gt;release announcement here&lt;/a&gt; and get the bits from your build dependency management tool of choice or &lt;a href=&quot;http://www.springsource.com/download/community&quot;&gt;the download page&lt;/a&gt;
+    &lt;/li&gt; 
+    
+    &lt;LI&gt; Hot on the heels of the Spring 3.1 release announcement, &lt;a href=&quot;http://blog.springsource.com/2011/06/10/spring-3-1-m2-configuration-enhancements/&quot;&gt;Chris Beams chimes in&lt;/a&gt; on the much-improved Java-centric configuration model in Spring 3.1, M2, even as compared to M1! The features are really starting to come together to make this one of the smoothest, well arranged releases, yet! &lt;/LI&gt; 
+    
+    &lt;lI&gt; 
+   &lt;a href=&quot;http://blog.springsource.com/2011/06/13/spring-3-1-m2-spring-mvc-enhancements-2/&quot;&gt;Spring 3.1 M2 represents a marked improvement in core Spring, as well as Spring MVC!&lt;/a&gt;  Rossen Stoyanchev chimes in to introduce the numerous (truly, you&#039;ll need to read the detailed blog to get an idea - I won&#039;t even bother trying to enumerate them all here!) new features in Spring MVC 3.1 M2, including XML-free web applications on Servlet 3.0 containers. Check it out! 
+    &lt;/lI&gt;
+  
+ &lt;li&gt;&lt;a href=&quot;http://www.springsource.org/node/3151&quot;&gt;SpringSource Tool Suite 2.7.0.M2  has been released&lt;/a&gt;! The new release boasts  improved CloudFoundry support and many Grails features, including Grails 1.4 support, Grails-aware Rename Type refactoring, improved content-assist for GSPs, and improved Gradle support. Check it out!&lt;/li&gt;
+   
+     &lt;LI&gt;Using Spring Roo? Want to shape it&#039;s future? Now&#039;s a good time to provide input! The Spring Roo team wants you to fill out a &lt;a href=&quot;http://www.springsource.org/node/3150&quot;&gt;quick survey on the direction of Spring Roo.&lt;/a&gt;&lt;/LI&gt;
+  
+   &lt;LI&gt;&lt;a href=&quot;http://forum.springsource.org/showthread.php?110163-Spring-Data-Document-with-MongoDB-Support-1.0.0.M3-Released&quot;&gt;Spring Data Document with MongoDB Support, 1.0.0.M3, has been released!&lt;/a&gt; From the announcement, &lt;blockquote&gt;The changes and new features in Spring Data Document 1.0.0.M3 includes much improved mapping and conversion support. The &lt;CODE&gt;MappingMongoConverter&lt;/CODE&gt; is now the default converter used by the &lt;Code&gt;MongoTemplate &lt;/Code&gt; and the &lt;CODE&gt;SimpleMongoConverter&lt;/CODE&gt; has been deprecated and will be removed. The concept of a default collection name has also been removed and all operations of the &lt;code&gt;MongoTemplate&lt;/code&gt; are based on the collection name used for the entity class that is the target of the operation. The collection name used for an entity class defaults to the class name starting with a lower-case letter but it can be customized using the &lt;code&gt;@Document&lt;/code&gt; annotation.  
+&lt;/blockquote&gt;  
+   
+   &lt;/LI&gt;
+
+       
+        &lt;LI&gt;
+    &lt;a href=&quot;http://www.springsource.org/node/3152&quot;&gt;Spring Data Graph 1.1.0.M1 with Neo4j Support&lt;/a&gt; has been released! As the announcement summarizes, &lt;blockquote&gt;The Graph Neo4j module provides integration with the Neo4j graph database. Back in 2010, Rod Johnson and Emil Eifrem started brainstorming about Spring and Neo4j integration including transparent persistence and cross-store support. After an initial prototype it has been further developed in close cooperation between the VMware and Neo Technology development teams.&lt;/blockquote&gt; The new release includes dependency updates, support for the Neo4J query language called Cypher, self-relationships and much more! Check it out!
+   &lt;/LI&gt;
+
+  
+   &lt;li&gt; Using Spring? Want to build Swing applications, or at least, to build Swing applications with some data-driven 
+ content and to manage those interactions with Spring? Check out &lt;a href=&quot;http://www.jdal.org/&quot;&gt;JDAL&lt;/a&gt;, a library with utilities geared towards doing just that! 
+       According to the website, JDAL is  &quot;is built on top of Hibernate ORM and Spring framework and provides you with a set of core database services and UI Components ready to be used via configuration on Spring context configuration files.&quot; Very interesting! Some of you will  no doubt know about the &lt;a href=&quot;http://www.springsource.org/spring-rcp&quot;&gt;Spring Rich project&lt;/a&gt;, which hasn&#039;t been very active of late. It&#039;s great to see the community filling in the gaps! 
+       &lt;/li&gt;      
+ 
+&lt;LI&gt;
+Securing an application using Spring Security and Active Directory is feasible, but the specifics stumped me until just recently when I did some quick Googling and found &lt;a href=&quot;http://forum.springsource.org/showthread.php?110284-Error-using-LDAP-Authentication-with-Microsoft-ADAM&quot;&gt;this post from the SpringSource forums.&lt;/a&gt; The solution&#039;s spelled out in explicit detail in the response. Convenient! 
+ 
+&lt;/LI&gt; 
+   
+  
+    
+    &lt;li&gt;Looking for a good matrix comparing Spring versus Java EE? One manager, a Bergisch Gladbach, &lt;a href=&quot;http://niklasschlimm.blogspot.com/2011/06/spring-vs-java-ee-comparison-matrix.html&quot;&gt;shares his&lt;/a&gt;. Very interesting read, and one that reflects the norm for an increasingly large number of users today, I find. Check it out!  
+      
+    &lt;/li&gt;
+  
+  &lt;LI&gt;
+   &lt;a href=&quot;http://loianegroner.com/2011/06/jaxb-custom-binding-java-util-date-spring-3-serialization/&quot;&gt;A blog, by Loiane Groner, describes how to use custom dates with JAXB&lt;/a&gt;. Admittedly, this blog is not very Spring specific, but it&#039;s something that you might face when using Spring&#039;s JAXB2 &lt;code&gt;Marshaller&lt;/code&gt; with a client that doesn&#039;t support the same data serialization.  One example of this? Spring Android&#039;s Simple XML &lt;code&gt;Marshaller&lt;/code&gt; doesn&#039;t support JAXB2 dates, by default! This is also a good blog to read for the links to the other, more Spring-specific and useful content.
+    If only I&#039;d known this sooner!  I can think of at least one code base that will benefit from this recipe... 
+   &lt;/LI&gt;
+  
+   &lt;lI&gt;
+    &lt;a href=&quot;http://javakata6425.appspot.com/#goToPageIIIarticleIIISpring%20MVC,%20GWT,%20Wicket,%20%20dynamic%20form%20comparison&quot;&gt;Blog Java-Kata   takes a look at building a multi-row, dynamic form-based web application&lt;/a&gt; using Spring MVC, Wicket, and GWT. This first installment introduces the code (which is useful in of itself) and then the Spring MVC iteration. Good stuff, with details for those who&#039;ve wondered the same thing. Spring MVC is not a component-oriented web framework like Wicket and GWT, so it&#039;s nice to see it  still fares so well on this complex task.
+   &lt;/lI&gt;
+  
+&lt;/ol&gt; 
+		</description>
+ <comments>http://www.springsource.org/node/3154#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 14 Jun 2011 21:49:34 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3154 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>VMware vFabric 5 Enhances Virtualized Java and Spring</title>
+ <link>http://www.springsource.org/node/3153</link>
+ <description>&lt;p&gt;Today VMware &lt;a href=&quot;http://www.marketwire.com/press-release/vmware-introduces-vfabric-5-integrated-application-platform-virtual-cloud-environments-nyse-vmw-1526312.htm&quot;&gt;announced&lt;/a&gt; the release of &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric/overview.html&quot;&gt;VMware vFabric 5&lt;/a&gt;, the application platform that defines the future of enterprise Java for cloud and virtualized execution environments. vFabric 5 contains many of the technologies that the Spring community is already familiar with including &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-tcserver/overview.html&quot;&gt;tc Server&lt;/a&gt;, &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-hyperic/overview.html&quot;&gt;Hyperic&lt;/a&gt;, &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-gemfire/overview.html&quot;&gt;GemFire&lt;/a&gt;, and &lt;a href=&quot;http://www.vmware.com/products/datacenter-virtualization/vfabric-rabbitmq/overview.html&quot;&gt;RabbitMQ&lt;/a&gt;, but now adds some new technology.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Elastic Memory for Java&lt;/strong&gt; (EM4J): a new capability for tc Server that provides a completely new level of coordination between the application server and the underlying virtual machine. EM4J uses the underlying vSphere virtualization to overcome some of the limitations of the Java’s static memory heap.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spring Insight Operations&lt;/strong&gt;: leverages the same code-level tracing technology from the &lt;a href=&quot;/insight&quot;&gt;Spring Insight&lt;/a&gt; project but pulls together information from multiple application servers into a single console with roll-up views, drill downs, and historical comparisons ready for production systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLFire&lt;/strong&gt;: &lt;a href=&quot;http://communities.vmware.com/community/vmtn/appplatform/vfabric_sqlfire&quot;&gt;vFabric SQLFire&lt;/a&gt; leverages the time-tested vFabric GemFire underpinnings providing data at memory speed and horizontal scale but vFabric SQLFire adds familiar and standard SQL and JDBC interfaces to the service. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.springsource.com/author/rodj/&quot;&gt;Rod Johnson&lt;/a&gt; discusses all the details of the release in his &lt;a href=&quot;http://blog.springsource.com/2011/06/14/announcing-vfabric-5/&quot;&gt;latest blog&lt;/a&gt;. Be sure to check out the latest release and try it out.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3153#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 14 Jun 2011 16:31:53 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3153 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data Graph 1.1.0.M1 with Neo4j support Released</title>
+ <link>http://www.springsource.org/node/3152</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;We are pleased to announce that a new milestone release (1.1.0.M1) of the Spring Data Graph project with Neo4j support is now available!&lt;/p&gt;
+&lt;p&gt;The primary goal of the &lt;b&gt;Spring Data&lt;/B&gt; project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and cloud based data services.&lt;/p&gt;
+&lt;p&gt;The Graph Neo4j module provides integration with the &lt;a href=&quot;http://neo4j.org&quot;&gt;Neo4j&lt;/a&gt; graph database. Back in 2010, Rod Johnson and Emil Eifrem started brainstorming about Spring and Neo4j integration including transparent persistence and cross-store support. After an initial prototype it has been further developed in close cooperation between the VMware and Neo Technology development teams.&lt;/p&gt;
+&lt;p&gt;To learn more about the project, visit the &lt;a href=&quot;http://www.springsource.org/spring-data/neo4j&quot;&gt;Spring Data Graph Project Homepage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The key changes in the Spring Data Graph 1.1.0.M1 milestone release include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;updated dependency to Neo4j 1.4.M04 including API updates to Neo4j 1.4 changes&lt;/li&gt;
+&lt;li&gt;updated dependency to AspectJ 1.6.12.M1 (also available with STS 2.7.0.M2)&lt;/li&gt;
+&lt;li&gt;fixed errors in the REST binding (multiple property setting, index operations)&lt;/li&gt;
+&lt;li&gt;added support for the Neo4j query language &quot;Cypher&quot; in entity annotations, introduced methods and repositories&lt;/li&gt;
+&lt;li&gt;added support for self-relationships&lt;/li&gt;
+&lt;li&gt;elementClass annotation attribute is now optional&lt;/li&gt;
+&lt;li&gt;updated documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are looking forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=80&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/DATAGRAPH&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Project resources:&lt;br /&gt;
+&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20Neo4j&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-graph/docs/1.1.0.M1/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-graph/docs/1.1.0.M1/reference/html/&quot;&gt;Spring Data Graph Guide Book&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-graph/docs/1.1.0.M1/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3152#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 14 Jun 2011 03:01:02 +0000</pubDate>
+ <dc:creator>Thomas Risberg</dc:creator>
+ <guid isPermaLink="false">3152 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringSource Tool Suite 2.7.0.M2 Released</title>
+ <link>http://www.springsource.org/node/3151</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I&#039;m pleased to announce that we just released the second milestone build for the next release of the SpringSource Tool Suite (STS).&lt;/p&gt;
+&lt;p&gt;This milestone brings mostly new features for the Cloud Foundry support and Groovy&amp;amp;Grails developers, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved Cloud Foundry support&lt;/li&gt;
+&lt;li&gt;Support for Grails 1.4&lt;/li&gt;
+&lt;li&gt;Grails aware Rename Type Refactoring&lt;/li&gt;
+&lt;li&gt;Improved content assist for GSPs&lt;/li&gt;
+&lt;li&gt;Improved Gradle support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy-2.7.0.M2.pdf&quot;&gt;New and Noteworthy for 2.7.0.M2&lt;/a&gt;  document. Detailed &lt;a href=&quot;http://download.springsource.com/release/STS/doc/STS-installation_instructions.pdf&quot;&gt;installation instructions&lt;/a&gt; are also available, please look at the installation from the milestone update sites.&lt;/p&gt;
+&lt;p&gt;As always downloads are available from the &lt;a href=&quot;http://www.springsource.com/landing/best-development-tool-enterprise-java&quot;&gt;STS download page&lt;/a&gt;, check &quot;Other Downloads&quot;.&lt;/p&gt;
+&lt;p&gt;The release is planned for the beginning of July.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3151#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 13 Jun 2011 21:45:39 +0000</pubDate>
+ <dc:creator>Martin Lippert</dc:creator>
+ <guid isPermaLink="false">3151 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Roo Roadmap Survey</title>
+ <link>http://www.springsource.org/node/3150</link>
+ <description>&lt;p&gt;The Spring Roo team are putting together a feature road-map and we want your input! &lt;/p&gt;
+&lt;p&gt;Please complete our &lt;a href=&quot;http://bit.ly/kukiqv&quot;&gt;60 second survey&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3150#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 10 Jun 2011 14:10:01 +0000</pubDate>
+ <dc:creator>stewarta</dc:creator>
+ <guid isPermaLink="false">3150 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>

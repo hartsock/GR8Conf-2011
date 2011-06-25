@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>SpringSource Team Blog</title>
+	
+	<link>http://blog.springsource.com</link>
+	<description>The voice of SpringSource</description>
+	<lastBuildDate>Sat, 25 Jun 2011 03:41:43 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/SpringSourceTeamBlog" /><feedburner:info uri="springsourceteamblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Spring 3.1 M2: Testing with @Configuration Classes and Profiles</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/X5evaw_oywM/</link>
+		<comments>http://blog.springsource.com/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles/#comments</comments>
+		<pubDate>Tue, 21 Jun 2011 23:07:34 +0000</pubDate>
+		<dc:creator>Sam Brannen</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[spring 3.1]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=9002</guid>
+		<description>As Jürgen Höller mentioned in his post announcing the release of Spring 3.1 M2, the Spring TestContext Framework(*) has been overhauled to provide first-class testing support for @Configuration classes and environment profiles. In this post I&amp;#039;ll first walk you through some examples that demonstrate these new testing features. I&amp;#039;ll then cover some of the new [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/X5evaw_oywM" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles/</feedburner:origLink></item>
+		<item>
+		<title>Defining the Future for Virtualized and Cloud Java</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/dhhTZVsTYag/</link>
+		<comments>http://blog.springsource.com/2011/06/14/announcing-vfabric-5/#comments</comments>
+		<pubDate>Tue, 14 Jun 2011 15:00:44 +0000</pubDate>
+		<dc:creator>Rod Johnson</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[SpringSource]]></category>
+		<category><![CDATA[VMware]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8978</guid>
+		<description>Today I am proud to announce version 5 of our VMware vFabric™ application platform defining the future of enterprise Java for cloud and virtualized execution environments. vFabric blazes the path to new and modern cloud architectures by providing a modern programming model paired with next-generation platform services. A path that is not overgrown with the [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/dhhTZVsTYag" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/14/announcing-vfabric-5/feed/</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/14/announcing-vfabric-5/</feedburner:origLink></item>
+		<item>
+		<title>Spring 3.1 M2: Spring MVC Enhancements</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/q_jUIV3N55Q/</link>
+		<comments>http://blog.springsource.com/2011/06/13/spring-3-1-m2-spring-mvc-enhancements-2/#comments</comments>
+		<pubDate>Mon, 13 Jun 2011 09:50:41 +0000</pubDate>
+		<dc:creator>Rossen Stoyanchev</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8994</guid>
+		<description>This post focuses on what&amp;#039;s new for Spring MVC in Spring 3.1 M2. Here are the topics: Code-based equivalent for the MVC namespace. Customizable @MVC processing. Programming model improvements. A brief reminder that the features discussed here are in action at the Greenhouse project. Code-based Configuration For Spring MVC As Chris pointed out in his [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/q_jUIV3N55Q" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/13/spring-3-1-m2-spring-mvc-enhancements-2/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/13/spring-3-1-m2-spring-mvc-enhancements-2/</feedburner:origLink></item>
+		<item>
+		<title>Spring 3.1 M2: Configuration Enhancements</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/2uWd4zp7voE/</link>
+		<comments>http://blog.springsource.com/2011/06/10/spring-3-1-m2-configuration-enhancements/#comments</comments>
+		<pubDate>Fri, 10 Jun 2011 13:00:27 +0000</pubDate>
+		<dc:creator>Chris Beams</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[IOC Container]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8868</guid>
+		<description>As Juergen mentioned in his post yesterday, and as I&amp;#039;ve mentioned in my previous posts on 3.1 M1, one of the major themes of Spring 3.1 is completing our vision for code-based configuration in Spring. We think a modern enterprise Java application should have a choice between Java and XML as first class options for [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/2uWd4zp7voE" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/10/spring-3-1-m2-configuration-enhancements/feed/</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/10/spring-3-1-m2-configuration-enhancements/</feedburner:origLink></item>
+		<item>
+		<title>Spring Framework 3.1 M2 released</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/kgnYZs3AmOw/</link>
+		<comments>http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 21:52:35 +0000</pubDate>
+		<dc:creator>Juergen Hoeller</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8849</guid>
+		<description>Spring Framework 3.1 M2 has been released this week, marking the end of the 3.1 milestone phase. We are moving on to the release candidate phase now, preparing for a feature-complete RC1 in July and a GA release in September. 3.1 M2 completes the work on several major themes started in 3.1 M1 back in [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/kgnYZs3AmOw" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/09/spring-framework-3-1-m2-released/</feedburner:origLink></item>
+		<item>
+		<title>Countdown to Grails 1.4: Unit testing</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/_vFNWjhanBc/</link>
+		<comments>http://blog.springsource.com/2011/06/07/countdown-to-grails-1-4-unit-testing/#comments</comments>
+		<pubDate>Tue, 07 Jun 2011 09:12:19 +0000</pubDate>
+		<dc:creator>Peter Ledbrook</dc:creator>
+				<category><![CDATA[Groovy/Grails]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8822</guid>
+		<description>The first milestone of Grails 1.4 has now been released and we are on the last stages of the journey towards 1.4 final. As we approach that point, I will be writing a series of blog posts that cover the various new features and changes that the 1.4 version brings. I&amp;#039;ll be starting with the [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/_vFNWjhanBc" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/07/countdown-to-grails-1-4-unit-testing/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/07/countdown-to-grails-1-4-unit-testing/</feedburner:origLink></item>
+		<item>
+		<title>A Simple Groovy DSL for building RabbitMQ AMQP Applications</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/QYIibAkbynI/</link>
+		<comments>http://blog.springsource.com/2011/06/01/a-simple-groovy-dsl-for-building-rabbitmq-amqp-applications/#comments</comments>
+		<pubDate>Wed, 01 Jun 2011 14:10:46 +0000</pubDate>
+		<dc:creator>jbrisbin</dc:creator>
+				<category><![CDATA[AMQP]]></category>
+		<category><![CDATA[Groovy/Grails]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8806</guid>
+		<description>Asynchronous applications can sometimes be a challenge while you&amp;#039;re developing them since you usually need two separate components to see the full message publication and consumption lifecycle. It often happens that you write a consumer that can dump messages to System.out or your log file, just so you can make sure your publisher is doing [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/QYIibAkbynI" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/06/01/a-simple-groovy-dsl-for-building-rabbitmq-amqp-applications/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/06/01/a-simple-groovy-dsl-for-building-rabbitmq-amqp-applications/</feedburner:origLink></item>
+		<item>
+		<title>Better DSL support in Groovy-Eclipse</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/zxuKA9cWNpM/</link>
+		<comments>http://blog.springsource.com/2011/05/08/better-dsl-support-in-groovy-eclipse/#comments</comments>
+		<pubDate>Mon, 09 May 2011 03:57:24 +0000</pubDate>
+		<dc:creator>Andrew Eisenberg</dc:creator>
+				<category><![CDATA[Groovy/Grails]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Tools]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8771</guid>
+		<description>The Groovy language is an excellent platform for creating domain specific languages (DSLs). A good DSL can make programs more concise and expressive as well as make programmers more productive.  However, until now these DSLs were not directly supported by the Groovy editor. When DSLs are used heavily, standard IDE features like content assist, search, hovers, and navigation lose their value. For a while now, it has been possible to write an Eclipse plugin to extend Groovy-Eclipse, but this is a heavy-weight approach that requires specific knowledge of the Eclipse APIs. This is no longer necessary. Groovy-Eclipse now supports &lt;em&gt;DSL descriptor&lt;/em&gt; (DSLD) files that makes your DSL fully understood by Groovy-Eclipse.&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/zxuKA9cWNpM" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/05/08/better-dsl-support-in-groovy-eclipse/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/05/08/better-dsl-support-in-groovy-eclipse/</feedburner:origLink></item>
+		<item>
+		<title>Using MongoDB, Redis, Node.js, and Spring MVC in a single Cloud Foundry Application</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/YK23_a9-bAk/</link>
+		<comments>http://blog.springsource.com/2011/05/03/using-mongodb-redis-node-js-and-spring-mvc-in-a-single-cloud-foundry-application/#comments</comments>
+		<pubDate>Tue, 03 May 2011 21:39:51 +0000</pubDate>
+		<dc:creator>jbrisbin</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Data Access]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Spring Data]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8735</guid>
+		<description>Traditionally, applications have been defined by the principle technology they use. If you&amp;#039;re building a Spring MVC application, we call it a &amp;#034;Java app&amp;#034;. Since our application is primarily composed of Java components, we tend to stay in our own yards and not be terribly friendly with our neighbors until we&amp;#039;re forced to interact with [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/YK23_a9-bAk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/05/03/using-mongodb-redis-node-js-and-spring-mvc-in-a-single-cloud-foundry-application/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/05/03/using-mongodb-redis-node-js-and-spring-mvc-in-a-single-cloud-foundry-application/</feedburner:origLink></item>
+		<item>
+		<title>Getting Started with Redis, Spring Data &amp; Cloud Foundry</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/OQe1NBn-Xx0/</link>
+		<comments>http://blog.springsource.com/2011/04/27/getting-started-redis-spring-cloud-foundry/#comments</comments>
+		<pubDate>Wed, 27 Apr 2011 10:45:19 +0000</pubDate>
+		<dc:creator>Costin Leau</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Data Access]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Spring Data]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8680</guid>
+		<description>One of the drivers behind the popularity of NoSQL solutions is performance (especially) under heavy loads. Due to their data model, key value stores lead the pack, providing lightweight yet flexible means of working with data. In this entry, I am going to quickly showcase what it takes to work with a key value store [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/OQe1NBn-Xx0" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/27/getting-started-redis-spring-cloud-foundry/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/27/getting-started-redis-spring-cloud-foundry/</feedburner:origLink></item>
+	</channel>
+</rss>

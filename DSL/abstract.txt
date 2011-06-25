@@ -1,0 +1,13 @@
+Domain Specific Langauges: fighting accidental complexity in a sea of technology
+
+Because the world is full of software there is a high risk of adding
+accidental complexity to systems. Today software systems are rarely
+written from scratch and software must be made from existing systems
+for use by other systems. What is unique to each application may be
+lost in the noise of solving accidental problems created by using what
+already is in place.  If we decompose applications into domains and
+create common ways to manipulate these domains we can accomplish both
+the vital tasks of allowing interoperability and hiding accidental
+complexity. Domain Specific Languages coupled with Meta-Programming
+can be a powerful set of techniques in our battle to keep complexity
+at bay.

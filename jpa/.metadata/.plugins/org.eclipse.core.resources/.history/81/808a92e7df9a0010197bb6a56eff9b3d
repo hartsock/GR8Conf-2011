@@ -1,0 +1,16 @@
+package com.osintegrators.jpa.evil.hr;
+/**
+ *   previousEmployer1SupervisorName varchar(255),
+  previousEmployer1SupervisorPhone varchar(255),
+  previousEmployer1SupervisorEmail varchar(255),
+  previousEmployer1SupervisorOkayToContact bit,
+
+ * @author shartsock
+ *
+ */
+public class Contact {
+	String name;
+	String phone;
+	String email;
+	Boolean okayToContact;
+}

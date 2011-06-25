@@ -1,0 +1,55 @@
+package date;
+
+import java.util.Calendar as C
+
+public class DateDSL {
+  static months = [ 'january':C.JANUARY, 'february':C.FEBRUARY, 'march':C.MARCH, 'april':C.APRIL, 'may':C.MAY, 'june':C.JUNE, 'july':C.JULY, 'august':C.AUGUST, 'september':C.SEPTEMBER, 'october':C.OCTOBER, 'november':C.NOVEMBER, 'december':C.DECEMBER ]
+  static days = [ 'sunday':C.SUNDAY, 'monday':C.MONDAY, 'tuesday':C.TUESDAY, 'wednesday':C.WEDNESDAY, 'thursday':C.THURSDAY, 'friday':C.FRIDAY, 'saturday':C.SATURDAY ]
+  Map state = [:]
+
+
+
+  def call( args ) {
+    def cal = new GregorianCalendar()
+    cal.clear()
+    def vals = []
+    def monthList = state.month ?: months.keySet()
+    if(state.day) {
+      args.each { year ->
+        monthList.each { monthName ->
+          def month = months[monthName]
+          cal.set(year,month,1)
+          while(cal.get(C.YEAR) == year && cal.get(C.MONTH) == month) {
+            if(cal.get(C.DAY_OF_WEEK) == state.day) {
+              vals.add(cal.getTime())
+            }
+            cal.add(C.DAY_OF_YEAR,1)
+          }
+        }
+      }
+    }
+    return vals
+  }
+
+  def methodMissing(String name, args) {
+    if(name == 'in') { call(args) }
+    else if( name in months.keySet()) { if(!state.month){ state.month = [];}; state.month << name; call(args) }
+    else throw new MissingMethodException(name,getClass(),args)
+  }
+
+  static getEvery() { new DateDSL() }
+  
+  def propertyMissing(name) {
+    if(metaClass.respondsTo(this,name)) { return this."$name"() }
+    else if( name == 'in') { this }
+    else if( days[name] ) { state.day = days[name]; return this }
+    else { return name }
+  }
+
+  def interpret(String script) {
+    def shell = new GroovyShell()
+    Closure closure = shell.evaluate("{->" + script + "}")
+    closure.delegate = this
+    return closure.call()
+  }
+}

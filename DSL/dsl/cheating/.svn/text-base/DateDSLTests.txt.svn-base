@@ -1,0 +1,36 @@
+import junit.framework.TestCase;
+import date.DateDSL;
+
+import java.util.List;
+
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: Shawn
+ * Date: Nov 24, 2009
+ * Time: 12:10:09 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class DateDSLTests extends GroovyTestCase {
+    public void testEveryXDayIn2009() {
+        List wednesdays = DateDSL.every.wednesday.in(2009);
+        assert wednesdays.size() == 52
+        List mondays = DateDSL.every.monday.in(2009);
+        assert mondays.size() == 52
+        List saturdays = DateDSL.every.monday.in(2009);
+        assert saturdays.size() == 52
+    }
+
+    public void testEveryXDayInYMonthIn2009() {
+      List wedInMarch = DateDSL.every.wednesday.in.march(2009)
+      println wedInMarch
+      assert wedInMarch.size() == 4
+    }
+
+  void testExternalDslTests() {
+    def dsl = new DateDSL()
+    def days = dsl.interpret(" every.wednesday.in(2009) ")
+    assert days != null
+    assert days.size() == 52
+  }
+}

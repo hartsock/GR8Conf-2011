@@ -1,0 +1,5 @@
+package com.osintegrators.jpa.evil.hr;
+
+public class Name {
+
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.1.49-1ubuntu8.1" jdbc-version="4.0" driver-version="mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )" uuid="cb5ed61c-82fe-4d29-9214-01df78b83504">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost:3306/impossible</jdbc-url>
+    <user-name>impossible</user-name>
+    <user-password>dfc3dfc7dfdadfc5dfd9dfd9dfc3dfc8dfc6dfcf</user-password>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/libs/mysql-connector-java-5.1.15-bin.jar!/</url>
+      </library>
+    </libraries>
+    <table name="application" schema="" catalog="impossible" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true" />
+      <column name="startedDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="editedDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="submittedDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="submitted" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="deleted" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="firstName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="middleNameOrMI" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="lastName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="secondLastName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="nickName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="email" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="countryOfResidence" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="countryOfCitizenship" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="countryOfCitizenship2" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressLine1" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressLine2" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressCity" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressStateOrProvence" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressCountry" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressPostalCodeOrZipCode" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="addressIsCanadian" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="addressIsInUK" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="addressPoliticalState" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressLine1" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressLine2" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressCity" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressStateOrProvence" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressCountry" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressPostalCodeOrZipCode" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="mailingAddressIsCanadian" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="mailingAddressIsInUK" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="mailingAddressPoliticalState" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1Name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1StartDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer1EndDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer1Title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1SupervisorName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1SupervisorPhone" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1SupervisorEmail" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer1SupervisorOkayToContact" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="previousEmployer2Name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer2StartDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer2EndDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer2Title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer2SupervisorName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer2SupervisorPhone" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer2SupervisorEmail" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer2SupervisorOkayToContact" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="previousEmployer3Name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer3StartDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer3EndDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer3Title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer3SupervisorName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer3SupervisorPhone" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer3SupervisorEmail" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer3SupervisorOkayToContact" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="previousEmployer4Name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer4StartDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer4EndDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="previousEmployer4Title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer4SupervisorName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer4SupervisorPhone" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer4SupervisorEmail" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="previousEmployer4SupervisorOkayToContact" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="education1SchoolName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education1StartDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education1EndDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education1DegreeeName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education1Years" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="education1GPA" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="education2SchoolName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education2StartDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education2EndDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education2DegreeeName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education2Years" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="education2GPA" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="education3SchoolName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education3StartDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education3EndDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education3DegreeeName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="education3Years" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="education3GPA" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="curriculumVitae" sqlType="BLOB" length="65535" precision="0" nullable="true" jdbcType="-4" />
+      <column name="processBeginDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="processBeginBy" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="processApprovedBy" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="processEndDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="version" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+    </table>
+    <table name="candidate" schema="" catalog="impossible" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true" />
+      <column name="application_identification_number" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="candidateCreateDate" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="planeTicket1Number" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="planeTicket2Number" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="planeTicket3Number" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="initialOfferAmount" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="finalOfferAmount" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7" />
+      <column name="offerAgentInitial" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="offerAgentFinal" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="offerLetter" sqlType="BLOB" length="65535" precision="0" nullable="true" jdbcType="-4" />
+      <column name="positionName" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="reportInDateMonth" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="reportInDateDay" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="reportInDateYear" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="reportedIn" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <primary-key name="PRIMARY" columns="id" />
+    </table>
+    <table name="evaluation" schema="" catalog="impossible" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true" />
+      <column name="xml" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <primary-key name="PRIMARY" columns="id" />
+    </table>
+    <table name="stock_allotments" schema="" catalog="impossible" type="TABLE">
+      <column name="last_started" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91" />
+      <column name="service_year" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="percent_released" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+    </table>
+    <table name="vacation_request" schema="" catalog="impossible" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true" />
+      <column name="xml" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <primary-key name="PRIMARY" columns="id" />
+    </table>
+  </data-source>
+</component>

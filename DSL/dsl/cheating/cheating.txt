@@ -1,0 +1,67 @@
+import java.util.Calendar as C
+static days = [ 'sunday':C.SUNDAY, 'monday':C.MONDAY, 'tuesday':C.TUESDAY, 'wednesday':C.WEDNESDAY, 'thursday':C.THURSDAY, 'friday':C.FRIDAY, 'saturday':C.SATURDAY ]
+static months = [ 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december' ]
+  static months = [ 'january':C.JANUARY, 'february':C.FEBRUARY, 'march':C.MARCH, 'april':C.APRIL, 'may':C.MAY, 'june':C.JUNE, 'july':C.JULY, 'august':C.AUGUST, 'september':C.SEPTEMBER, 'october':C.OCTOBER, 'november':C.NOVEMBER, 'december':C.DECEMBER ]
+
+
+//-----
+import java.util.Calendar as C
+02.class DateDSLDelegate {
+03.  static days = [ 'sunday':C.SUNDAY, 'monday':C.MONDAY, 'tuesday':C.TUESDAY, 'wednesday':C.WEDNESDAY, 'thursday':C.THURSDAY, 'friday':C.FRIDAY, 'saturday':C.SATURDAY ]
+04.  static months = [ 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december' ]
+05.  def handler = [:]
+06.  def methodMissing( String name, args ) {
+07.    if( name in months )     {  handler.month = months.indexOf( name ) ; call( args ) }
+08.    else if( days[ name ] )  { handler.day = days[ name ] ; call( args ) }
+09.    else if( name == 'day' ) { handler.day = days.values() ; call( args ) }
+10.    else if( name == 'in' )  { call( args ) }
+11.    else throw new MissingMethodException( name, delegate.class, args )
+12.  }
+13.  def call( args ) {
+14.    def cal = C.getInstance()
+15.    cal.clear()
+16.     def vals = []
+17.    def monthSet = 'month' in handler.keySet()
+18.    args.each { year ->
+19.      cal.set( year, monthSet ? handler.month : C.JANUARY, 1 )
+20.      def days = []
+21.      while( monthSet ? cal.get( C.MONTH ) == handler.month : cal.get( C.YEAR ) == year ) {
+22.        if( cal.get( C.DAY_OF_WEEK ) in handler.day ) {
+23.          days << cal.getTime()
+24.        }
+25.         cal.add( C.DAY_OF_YEAR, 1 )
+26.      }
+27.      if( 'offset' in handler.keySet() ) { vals << days[ handler.offset ] } else { vals.addAll( days ) }
+28.    }
+29.    vals.size() == 1 ? vals[ 0 ] : vals
+30.  }
+31.  def propertyMissing( name ) {
+32.    if( days[ name ] )        { handler.day = days[ name ] ; this }
+33.    else if( name == 'day' )  { handler.day = days.values() ; this }
+34.    else if( name == 'in' )   { this }
+35.    else                      { name  }
+36.  }
+37.}
+38.class DateDSL {
+39.  def first()     { new DateDSLDelegate( handler:[offset: 0] ) }
+40.  def last()      { new DateDSLDelegate( handler:[offset:-1] ) }
+41.  def every()     { new DateDSLDelegate() }
+42.  def propertyMissing( name ) {
+43.    if( metaClass.respondsTo( this, name ) ) {  this."$name"() }
+44.    else                                     { name  }
+45.  }
+46.}
+47.
+48.def dsl = new DateDSL()
+49.dsl.with {
+50.  println first.monday.in.march( 2009, 2010 )
+51.  println first.monday.march( 2009, 2010 )
+52.  println every.wednesday.in( 2009 )
+53.  println every.wednesday( 2009 )
+54.  println last.friday.in.october( 2009 )
+55.  println last.day.in.december( 2009 )
+56.  println first.day.in( 2010 )
+57.  println every.wednesday.in.october( 2009 )
+58.  assert last.day( 2009 ) == last.day.in.december( 2009 )
+59.  assert last.day.in( 2009 ) + 1 == first.day.in.january( 2010 )
+60.}

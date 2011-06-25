@@ -1,0 +1,42 @@
+package com.osintegrators.jpa.evil.hr;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Version;
+
+@Entity(name="applicaton")
+public class Application {
+	private Long id;
+	private Date startedDate;
+	private Date editedDate;
+
+	@Id
+	@GeneratedValue
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	@Column
+	public Date getStartedDate() {
+		return startedDate;
+	}
+	public void setStartedDate(Date startedDate) {
+		this.startedDate = startedDate;
+	}
+	
+	@Column
+	@Version
+	public Date getEditedDate() {
+		return editedDate;
+	}
+	public void setEditedDate(Date editedDate) {
+		this.editedDate = editedDate;
+	}
+}

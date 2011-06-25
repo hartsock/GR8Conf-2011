@@ -1,0 +1,17 @@
+package com.osintegrators.jpa.evil.hr;
+
+import java.util.Date;
+
+import javax.persistence.Embeddable;
+
+/**
+ * @author shartsock
+ */
+@Embeddable
+public class Employer {
+	String name;
+	String title;
+	Date startDate;
+	Date endDate;
+	Supervisor supervisor;
+}

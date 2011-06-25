@@ -1,0 +1,10 @@
+package com.osintegrators.jpa.evil.hr;
+/**
+ * @author shartsock
+ */
+public class Supervisor {
+	String name;
+	String phone;
+	String email;
+	Boolean okayToContact;
+}
